@@ -16,7 +16,7 @@ Para ello aprovechamos una caracteristica curiosa de los diodos led.
 
 (Polarizacion inversa es cuando les aplicas tension "al reves" de forma que el led no luce y tampoco conduce la electricidad. )   
 
-<img src="./curva_teorica_I-V_de_un_LED.png" width="400" />
+<img src="./curva_teorica_I-V_de_un_LED2.png" width="400" />
 
 
 A diferencia de un diodo normal el semiconductor del led esta expuesto a la luz.   
