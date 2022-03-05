@@ -23,7 +23,7 @@
 //                 +--+---------------+       -------
 //                    |__________________________|
 //Explicacion:
-//1) Cargo el LED 
+//1) Cargo el LED (polarizacion inversa)
 //2) Patilla led en alta impedancia
 //3) Mido el tiempo de descarga (menos tiempo mas luz)
 //
