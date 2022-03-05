@@ -22,6 +22,11 @@
 //                 |  O O O "         |         \ /  =>   En inversa
 //                 +--+---------------+       -------
 //                    |__________________________|
+//Explicacion:
+//1) Cargo el LED 
+//2) Patilla led en alta impedancia
+//3) Mido el tiempo de descarga (menos tiempo mas luz)
+//
 void setup(){
   DigiUSB.begin();
   pinMode(PB1, OUTPUT);
@@ -33,12 +38,13 @@ void loop(){
   DigiUSB.delay(100);   //retardo para asegurar la transmision
 
   // Sensor luz con Diodo LED en inversa entre PB2 y Vcc
-  pinMode(PB2, OUTPUT);          //Cargo el LED luego PB2=0
+  pinMode(PB2, OUTPUT);          //1)Cargo el LED luego PB2=0
   digitalWrite(PB2, LOW);        //Explicacion el led en inversa se comporta como un condensador
   DigiUSB.delay(100);            //luego almacena un poco de carga electrica
   
-  pinMode(PB2, INPUT);           //Patilla PB2 en alta impedancia (muy poco consumo)
+  pinMode(PB2, INPUT);           //2) Patilla PB2 en alta impedancia (muy poco consumo)
   
+  //3) Mido la luz en funcion del tiempo de descarga (menos tiempo mas luz)
   int i = 0;                     //Explicacion:
   for(i=0; i<254 ; i++){         //el Tiempo que tarda el LED 
       if(digitalRead(PB2))break; //en descargarse depende
