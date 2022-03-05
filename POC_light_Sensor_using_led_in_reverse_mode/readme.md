@@ -99,6 +99,9 @@ void loop(){
 }
   ```
 
+### Referencias:
+https://www.petervis.com/Education/diode-characteristics-curve/diode-characteristics-curve.html
+
 ___
 <a href="http://euskalhack.org/">
 <img src="https://euskalhack.org/images/EuskalHack_Logo.png" alt="Asociación de Seguridad Informática EuskalHack - " />
