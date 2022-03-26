@@ -2,9 +2,7 @@
 ##### [Código y esquemas charla BreakingBadUSB impartida en la H-CON por Rober y Jejo <br/> (usando un Attiny como MitM de un teclado USB). <br/> (H-C0N:Hackplayers Conference 2022)](https://www.h-c0n.com/p/ponencias2022.html#Charla_RobertoCasado_SergioBlazquez)
 
 
-*** this part of Code is Based on Obdev's AVRUSB code and under the same license.
-https://github.com/obdev/v-usb
-***
+*** this part of Code is Based on Obdev's AVRUSB code and under the same license. https://github.com/obdev/v-usb ***
 
 
 ![](./img/Animacion_Bad_USB_5.gif) 
@@ -37,6 +35,5 @@ ___
 
 
 
-*** this part of Code is Based on Obdev's AVRUSB code and under the same license.
-https://github.com/obdev/v-usb
-***
+*** this part of Code is Based on Obdev's AVRUSB code and under the same license. https://github.com/obdev/v-usb ***
+
