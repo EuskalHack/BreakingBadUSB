@@ -5,7 +5,7 @@
 *** this part of Code is Based on Obdev's AVRUSB code and under the same license. https://github.com/obdev/v-usb ***
 
 
-![](./img/Animacion_Bad_USB_5.gif) 
+![](../img/Animacion_Bad_USB_5.gif) 
 
 ___
 
