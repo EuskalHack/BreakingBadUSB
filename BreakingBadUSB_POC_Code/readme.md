@@ -30,3 +30,7 @@ ___
 <img src="https://euskalhack.org/images/EuskalHack_Logo.png" alt="Asociación de Seguridad Informática EuskalHack - " />
 </a>
 
+
+
+Code Based on Obdev's AVRUSB code and under the same license.
+https://github.com/obdev/v-usb
